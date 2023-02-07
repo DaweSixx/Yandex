@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="https://go.yandex/">
+        <img
+          class="header__logo-img"
+          src="img/icons/svg/yandexLogo.svg"
+          alt="Yandex Logo"
+        />
+      </a>
+
+      <nav class="header__menu">
+        <ul class="header__menu-items">
+          <li class="header__menu-item" id="rent__btn">
+            Как арендовать самокат
+          </li>
+          <li class="header__menu-item" id="subscription__btn">
+            Катайтесь с Плюсом
+          </li>
+          <li class="header__menu-item" id="rules__btn">Катайтесь аккуратно</li>
+          <li class="header__menu-item" id="where__btn">Где самокаты?</li>
+        </ul>
+      </nav>
+      <btn class="header__button btn">Скачать</btn>
+    </header>
+    <main class="main">
+      <section class="scooter">
+        <div class="container">
+          <div class="scooter__top">
+            <img class="scooter__top-img" src="img/scooterTopLogo.png" />
+          </div>
+          <div class="scooter__text">
+            Скачайте приложение, чтобы арендовать ближайший электросамокат
+          </div>
+          <div class="scooter__btn btn">Скачать приложение</div>
+          <div class="scooter__links">
+            Самокаты есть в <a class="scooter__link" href="#">Москве</a> ,
+            <a class="scooter__link" href="#">Санкт-Петербурге</a>,
+            <a class="scooter__link" href="#">Краснодаре</a> и
+            <a class="scooter__link" href="#">Туле</a>
+          </div>
+          <img
+            class="scooter__whiteline"
+            src="img/icons/svg/longWhiteLine.svg"
+            alt=""
+          />
+        </div>
+      </section>
+      <section id="rent" class="rent">
+        <div class="container">
+          <div class="rent__title">Как арендовать самокат</div>
+          <div class="rent__main">
+            <video autoplay loop class="rent__video">
+              <source src="../video/yandexvideo.mp4" type="video/mp4" />
+            </video>
+            <div class="rent__content">
+              <img class="rent__img" src="img/icons/svg/logoAndScooter.svg" />
+              <div class="rent__text">В Яндекс Go нажмите кнопку Самокаты</div>
+              <img class="rent__img" src="img/icons/svg/pAndScooter.svg" />
+              <div class="rent__text">Найдите на карте ближайшую парковку</div>
+              <img
+                class="rent__img"
+                src="img/icons/svg/stickmanAndScooter.svg"
+              />
+              <div class="rent__text">
+                Дойдите до самоката и отсканируйте QR-код на руле
+              </div>
+            </div>
+          </div>
+          <img
+            class="rent__longarrow"
+            src="img/icons/svg/longArrow.svg"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="rate">
+        <div class="container">
+          <div class="rate__title btn">
+            Готово! Выбирайте тариф <br />
+            и можно ехать
+          </div>
+          <div class="rate__cards">
+            <div class="rate__cards-top">
+              <div class="rate__cards-top-item">
+                <div class="cards__item-icon">
+                  <img src="img/icons/svg/tarifIcon.svg" alt="" />
+                </div>
+                <div class="cards__item-title">Тариф Фикс</div>
+                <div class="cards__item-text">
+                  Подойдет, если знаете точку назначения. Цена поездки
+                  фиксированная. Покажем её заранее.
+                </div>
+              </div>
+              <div class="rate__cards-top-item top-item-2th">
+                <div class="cards__item-icon">
+                  <img src="img/icons/svg/ClockWhite.svg" alt="" />
+                </div>
+                <div class="cards__item-title">
+                  Тариф <br />
+                  Поминутный
+                </div>
+                <div class="cards__item-text">
+                  Для прогулок по городу. <br />
+                  Аренда: от 50 рублей + тариф от 7 рублей в минуту.
+                </div>
+              </div>
+              <div class="rate__cards-top-item top-item-3th">
+                <div class="cards__item-title">
+                  Опция <br />
+                  «Ещё один самокат»
+                </div>
+                <div class="cards__item-text">
+                  Нужна, чтобы забронировать с одного телефона до трёх самокатов
+                  одновременно. Да, и такое бывает
+                </div>
+              </div>
+            </div>
+            <div class="rate__cards-bottom">
+              <div class="rate__cards-bottom-item bottom-item-1th">
+                <div class="cards__item-icon">
+                  <img src="img/icons/yandexinshan.png" alt="" />
+                </div>
+                <div class="cards__item-title">
+                  Катайтесь <br />
+                  с Плюсом
+                </div>
+                <div class="cards__item-text">
+                  Вернем 5% кешбэка баллами <br />
+                  Плюса за каждую поездку.<br />
+                  Кешбэк можно тратить <br />
+                  в сервисах Яндекса
+                </div>
+              </div>
+              <div class="rate__cards-bottom-item bottom-item-2th">
+                <img
+                  class="cards__item-background"
+                  src="img/xuyevosamakatovgyada.jpeg"
+                />
+              </div>
+              <div class="rate__cards-bottom-item bottom-item-3th">
+                <div class="cards__item-title">На чём едем?</div>
+                <div class="cards__item-text">
+                  Ninebot Max Plus 2022 года выпуска. Красив и функционален. На
+                  его борту есть держатель для телефона с беспроводной зарядкой.
+                </div>
+                <div class="cards__item-text second__text">
+                  За 30 минут поездки зарядим ваш девайс на 40%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="subscription">
+        <div class="subscription__wrapper">
+          <div class="container">
+            <div class="subscription__title">
+              Абонемент на самокаты в Яндекс Плюсе
+            </div>
+            <div class="subscription__text">
+              Если вы часто ездите по городу на самокатах, выгоднее будет с
+              абонементом. Его можно купить, только если у вас есть Яндекс Плюс.
+              Абонемент бесплатный на первый месяц, за второй месяц вернём 399 ₽
+              баллами Плюса. Вот какие бонусы он даёт:
+            </div>
+            <img class="subscription__logo" src="img/icons/znakermaker.png" />
+            <div class="subscription__items">
+              <div class="subscription__item">
+                <div class="subscription__item-title">Бесплатный старт</div>
+                <div class="subscription__item-text">
+                  0₽ в любом тарифе и даже в групповой поездке, вместо 50₽ за
+                  каждую поездку
+                </div>
+              </div>
+              <div class="subscription__item">
+                <div class="subscription__item-title">Бесплатное ожидание</div>
+                <div class="subscription__item-text">
+                  до 15 минут за 0₽ вместо 3,5₽ за минуту
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="rules">
+        <div class="rules__slide">
+          <div class="slider_wrapper">
+            <div class="slider_card">
+              <video controls class="slider-card--video">
+                <source src="video/slideVideos/1.mp4" />
+                <source src="video/slideVideos/1.webm" />
+              </video>
+            </div>
+            <div class="slider_card">
+              <video controls class="slider-card--video">
+                <source src="video/slideVideos/2.mp4" />
+                <source src="video/slideVideos/2.webm" />
+              </video>
+            </div>
+            <div class="slider_card">
+              <video controls class="slider-card--video">
+                <source src="video/slideVideos/3.mp4" />
+                <source src="video/slideVideos/3.webm" />
+              </video>
+            </div>
+            <div class="slider_card">
+              <video controls class="slider-card--video">
+                <source src="video/slideVideos/4.mp4" />
+                <source src="video/slideVideos/4.webm" />
+              </video>
+            </div>
+            <div class="slider_card">
+              <video controls class="slider-card--video">
+                <source src="video/slideVideos/5.mp4" />
+                <source src="video/slideVideos/5.webm" />
+              </video>
+            </div>
+            <div class="slider_card">
+              <video controls class="slider-card--video">
+                <source src="video/slideVideos/6.mp4" />
+                <source src="video/slideVideos/6.webm" />
+              </video>
+            </div>
+            <div class="slider_card">
+              <video controls class="slider-card--video">
+                <source src="video/slideVideos/7.mp4" />
+                <source src="video/slideVideos/7.webm" />
+              </video>
+            </div>
+            <div class="slider_card">
+              <video controls class="slider-card--video">
+                <source src="video/slideVideos/8.mp4" />
+                <source src="video/slideVideos/8.webm" />
+              </video>
+            </div>
+            <div class="slider_card">
+              <video controls class="slider-card--video">
+                <source src="video/slideVideos/9.mp4" />
+                <source src="video/slideVideos/9.webm" />
+              </video>
+            </div>
+            <div class="slider_card">
+              <video controls class="slider-card--video">
+                <source src="video/slideVideos/10.mp4" />
+                <source src="video/slideVideos/10.webm" />
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="rules__main">
+            <div class="rules__title">Катайтесь аккуратно</div>
+            <div class="rules__items">
+              <div class="rules__item">
+                <div class="rules__item-icon">
+                  <img src="img/icons/svg/one.svg" alt="icon" />
+                </div>
+                <div class="rules__item-title">Один человек — один самокат</div>
+                <div class="rules__item-text">
+                  А с опцией «Ещё один самокат» можно забронировать самокат для
+                  друга
+                </div>
+              </div>
+              <div class="rules__item">
+                <div class="rules__item-icon">
+                  <img src="img/icons/svg/two.svg" alt="icon" />
+                </div>
+                <div class="rules__item-title">Лучше наденьте шлем</div>
+                <div class="rules__item-text">
+                  Если только учитесь кататься, не повредит и другая защита
+                </div>
+              </div>
+              <div class="rules__item">
+                <div class="rules__item-icon">
+                  <img src="img/icons/svg/three.svg" alt="icon" />
+                </div>
+                <div class="rules__item-title">Катайтесь трезвыми</div>
+                <div class="rules__item-text">
+                  Это правило справедливо для любого транспорта
+                </div>
+              </div>
+              <div class="rules__item">
+                <div class="rules__item-icon">
+                  <img src="img/icons/svg/four.svg" alt="icon" />
+                </div>
+                <div class="rules__item-title">
+                  Переходите дорогу только пешком
+                </div>
+                <div class="rules__item-text">
+                  То же с бордюрами и ступеньками
+                </div>
+              </div>
+              <div class="rules__item">
+                <div class="rules__item-icon">
+                  <img src="img/icons/svg/five.svg" alt="icon" />
+                </div>
+                <div class="rules__item-title">Уступайте пешеходам</div>
+                <div class="rules__item-text">Вы тоже один из них</div>
+              </div>
+              <div class="rules__item">
+                <div class="rules__item-icon">
+                  <img src="img/icons/svg/six.svg" alt="icon" />
+                </div>
+                <div class="rules__item-title">Катайтесь по-взрослому</div>
+                <div class="rules__item-text">
+                  Вы можете взять самокат, если вам уже исполнилось 18 лет
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rules__greenblock-wrapper">
+            <div class="rules__greenblock">
+              <div class="rules__greenblock-icon rules__item-icon">
+                <img src="img/icons/svg/seven.svg" alt="icon" />
+              </div>
+              <div class="rules__greenblock-text">
+                Во время поездки на самокате действует страхование жизни и
+                здоровья — вашей и окружающих. Если во время катания что-то
+                произошло, сразу же напишите в поддержку
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="where">
+        <div class="container">
+          <div class="where__title">Где есть самокаты</div>
+          <div class="where__text">
+            Самокаты постепенно появляются в разных районах Москвы. Карта в
+            приложении покажет, где взять самокат — и на какой парковке его
+            можно оставить
+          </div>
+          <div class="where__img"><img src="img/map.jpeg" alt="map" /></div>
+        </div>
+      </section>
+      <section class="download">
+        <div class="download__wrapper">
+          <div class="container">
+            <div class="download__title">Скачайте приложение</div>
+            <div class="download__text">
+              Наведите камеру на QR-код для загрузки приложения
+            </div>
+            <div class="download__img">
+              <img src="img/icons/svg/QrCode.svg" alt="QR" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer__text">
+              Электросамокаты Яндекс Go&nbsp;— сервис аренды электросамокатов
+              на&nbsp;условиях, указанных на&nbsp;
+              <a
+                href="https://yandex.ru/legal/samokaty/"
+                target="_blank"
+                data-smooth-scroll="true"
+                >yandex.ru/legal/samokaty</a
+              >. Дополнительная опция «Абонемент на&nbsp;самокаты» оформляется
+              на&nbsp;условиях документа «Условия подписки на&nbsp;Яндекс Плюс»
+              (<a
+                href="https://yandex.ru/legal/yandex_plus_conditions"
+                target="_blank"
+                data-smooth-scroll="true"
+                >yandex.ru/legal/yandex_plus_conditions</a
+              >); есть ограничения, подробнее&nbsp;см. здесь:
+              <a
+                href="https://yandex.ru/legal/yandex_plus_opzii_list/"
+                target="_blank"
+                data-smooth-scroll="true"
+                >yandex.ru/legal/yandex_plus_opzii_list</a
+              >. В&nbsp;групповой поездке можно арендовать не&nbsp;более
+              3&nbsp;самокатов на&nbsp;одного пользователя. Условия подписки
+              на&nbsp;Яндекс Плюс:
+              <a
+                href="https://yandex.ru/legal/yandex_plus_conditions/"
+                target="_blank"
+                data-smooth-scroll="true"
+                >yandex.ru/legal/yandex_plus_conditions</a
+              >. Условия программы лояльности «Яндекс Плюс Кешбэк»:
+              <a
+                href="https://yandex.ru/legal/plus_loyalty/"
+                target="_blank"
+                data-smooth-scroll="true"
+                >yandex.ru/legal/plus_loyalty</a
+              >. Пользователю начисляется&nbsp;5% кешбэка баллами,
+              но&nbsp;не&nbsp;более 1000 баллов за&nbsp;одну поездку. Для
+              получения и&nbsp;использования баллов требуется активная подписка
+              Яндекс Плюс или иная, ее&nbsp;включающая. Баллы не&nbsp;являются
+              денежными средствами, при использовании баллов предоставляется
+              скидка.&nbsp;0+
+            </div>
+            <div class="footer__copyright">
+              ©
+              <div class="footer__copyright-year">2023</div>
+              <div class="footer__copyright-organization">
+                ООО «Яндекс.Микромобильность»
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
