@@ -399,6 +399,7 @@ body {
   margin: 0 0 6.25rem 0;
 }
 .scooter__top-img {
+  width: 100%;
   max-width: 907px;
   margin: 0 auto -85px;
 }
