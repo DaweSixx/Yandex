@@ -279,8 +279,17 @@ body {
   font-size: 16px;
   background-color: #ffde40;
   color: #20201f;
+  animation: displayBody 1500ms ease-in-out;
 }
 
+@keyframes displayBody {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media (max-width: 600px) {
   html {
     font-size: 14px;
@@ -411,7 +420,18 @@ body {
 }
 
 /* ================= */
+@keyframes displayScooter {
+  0% {
+    transform: translateX(-30%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 .scooter {
+  animation: displayScooter 1500ms ease-in-out;
   margin: 0 0 6.25rem 0;
 }
 .scooter__top-img {
